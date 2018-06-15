@@ -3,7 +3,7 @@ syntax = "proto3";
 package sensor;
 
 message TemperatureSensorMeasurement {
-    string zone_id = 1;
+    string sensor_id = 1;
     string timestamp = 2;
     float temperature = 3;
     float pressure = 4;
