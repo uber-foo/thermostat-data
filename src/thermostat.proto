@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package thermostat;
+
+message ThermostatConfiguration {
+    string thermostat_id = 1;
+    float minimum_set_temperature = 2;
+    float maximum_set_temperature = 3;
+}
